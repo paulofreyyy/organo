@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './components/header/header';
+import { Footer } from "./components/footer/footer";
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+    selector: 'app-root',
+    imports: [HeaderComponent, Footer],
+    templateUrl: './app.html',
+    styleUrl: './app.css'
 })
 export class App {
-  protected title = 'organo';
+    protected title = 'organo';
 }
