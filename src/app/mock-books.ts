@@ -10,6 +10,17 @@ export const books: Book[] = [
             books: []
         },
         favorite: false,
-        image: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wC...'
+        image: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._AC_UF1000,1000_QL80_.jpg'
+    },
+    {
+        title: 'As ondas2',
+        autor: 'Virginia Woolf',
+        genre: {
+            id: 'romance',
+            value: 'Romance',
+            books: []
+        },
+        favorite: false,
+        image: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._AC_UF1000,1000_QL80_.jpg'
     },
 ]
