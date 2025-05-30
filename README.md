@@ -1,59 +1,75 @@
-# Organo
+# 🧠 Organo - Gerencie Seus Times com Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
+Este é um projeto construído como parte do curso [**Angular 19: Estruture seus componentes com signals e controle de fluxo**](https://cursos.alura.com.br/course/angular-19-estruture-componentes-signals-controle-fluxo) da plataforma Alura.
 
-## Development server
+A aplicação simula a criação e organização de colaboradores em times, utilizando conceitos modernos do Angular 16+ como `signals`, `ngIf` com `else`, `@Input`, `@Output`, `ngClass` e mais.
 
-To start a local development server, run:
+---
+
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/14b290b1-2e83-47cc-a0b7-b1a80de62b8f)
+
+
+---
+
+## 🧪 Tecnologias e Conceitos
+
+- [Angular 16+](https://angular.io/)
+- Signals
+- `@Input()` / `@Output()`
+- Binding de classes(`[ngClass]`)
+- Composição de componentes
+- Tipagem com TypeScript
+
+---
+
+## 🛠️ Como rodar localmente
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/paulofreyyy/organo
+cd organo
+```
+
+2. **Instale as dependências:**
+
+```bash
+npm install
+```
+
+3. **Rode o projeto:**
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4. Acesse no navegador:  
+   `http://localhost:4200`
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧑‍🏫 Baseado no curso
 
-```bash
-ng generate component component-name
-```
+- 📚 Curso: [Angular 19: Estruture seus componentes com signals e controle de fluxo](https://cursos.alura.com.br/course/angular-19-estruture-componentes-signals-controle-fluxo)
+- 🎓 Plataforma: [Alura](https://www.alura.com.br/)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+## 📁 Estrutura de Pastas
 
 ```bash
-ng build
+src/
+│
+├── app/
+│   ├── components/
+│   └── app.ts
+└── styles.css
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🙋‍♂️ Autor
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Feito com 💙 por [Mim mesmo](https://github.com/seu-usuario)
