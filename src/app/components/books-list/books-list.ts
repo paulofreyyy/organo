@@ -2,10 +2,11 @@ import { Genre } from './../book/book.dto';
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../book/book.dto';
 import { books } from '../../mock-books';
+import { GenreComponent } from "../genre/genre";
 
 @Component({
     selector: 'app-books-list',
-    imports: [],
+    imports: [GenreComponent],
     templateUrl: './books-list.html',
     styleUrl: './books-list.css'
 })

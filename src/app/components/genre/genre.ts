@@ -1,13 +1,14 @@
-import { Component } from '@angular/core';
+import { Genre } from './../book/book.dto';
+import { Component, input } from '@angular/core';
 import { BookComponent } from "../book/book";
-import { books } from '../../mock-books';
+import { CommonModule } from '@angular/common';
 
 @Component({
     selector: 'app-genre',
-    imports: [BookComponent],
+    imports: [BookComponent, CommonModule],
     templateUrl: './genre.html',
     styleUrl: './genre.css'
 })
-export class Genre {
-    book = books[0]
+export class GenreComponent {
+    genre = input.required<Genre>();
 }
