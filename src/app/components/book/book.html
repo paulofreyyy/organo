@@ -1,14 +1,14 @@
 <section>
-    <button class="btn-favorite" (click)="toggleFavorite()">
-        <span>{{ book.favorite ? '\u2764' : '\u2661'}}</span>
-    </button>
+  <button class="btn-favorite" (click)="toggleFavorite()">
+    <span>{{ book().favorite ? '\u2764' : '\u2661'}}</span>
+  </button>
 
-    <div class="image">
-        <img [src]="book.image" alt="imagem do livro">
-    </div>
+  <div class="image">
+    <img [src]="book().image" alt="imagem do livro" />
+  </div>
 
   <div class="book-container">
-    <h2 class="title">{{book.title}}</h2>
-    <h3 class="autor">{{book.autor}}</h3>
+    <h2 class="title">{{book().title}}</h2>
+    <h3 class="autor">{{book().autor}}</h3>
   </div>
 </section>
